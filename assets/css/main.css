@@ -2042,6 +2042,7 @@ input, select, textarea {
 		margin-bottom: 2rem;
 		padding: 1.5rem;
 	}
+	
 
 		.box > :last-child,
 		.box > :last-child > :last-child,
@@ -2886,7 +2887,7 @@ input, select, textarea {
 		}
 
 	ul.divided li {
-		border-top-color: #eeeeee;
+		border-top-color: #6b97e9;
 	}
 
 	ul.icons li a.icon:hover:before {
@@ -2924,7 +2925,7 @@ input, select, textarea {
 		}
 
 		header > h1 + p {
-			font-size: 1.1rem;
+			font-size: 1rem;
 			margin-top: -0.5rem;
 			line-height: 2;
 		}
@@ -2962,6 +2963,7 @@ input, select, textarea {
 				font-size: 1rem;
 				margin: 0 0 4rem 0;
 			}
+			
 
 				header.major > .date:before, header.major > .date:after {
 					content: '';
@@ -3089,7 +3091,7 @@ input, select, textarea {
 	}
 
 	table thead {
-		border-bottom-color: #eeeeee;
+		border-bottom-color: #6b97e9;
 	}
 
 	table tfoot {
@@ -3190,7 +3192,7 @@ input, select, textarea {
 		}
 
 	.pagination a, .pagination span {
-		border-color: #fcfcfc;
+		border-color: #6b97e9;
 	}
 
 	.pagination a {
@@ -3342,7 +3344,7 @@ input, select, textarea {
 
 		#intro code {
 			background: rgba(255, 255, 255, 0.075);
-			border-color: #ffffff;
+			border-color: #6b97e9;
 		}
 
 		#intro hr {
@@ -3373,7 +3375,7 @@ input, select, textarea {
 			#intro input[type="button"].primary,
 			#intro button.primary,
 			#intro .button.primary {
-				background-color: #ffffff;
+				background-color: #6b97e9;
 				box-shadow: none;
 				color: #f4f5f7 !important;
 			}
@@ -3400,6 +3402,7 @@ input, select, textarea {
 
 		#intro + #header {
 			margin-top: -20rem;
+
 		}
 
 			#intro + #header .logo {
@@ -3494,7 +3497,7 @@ input, select, textarea {
 /* Header */
 
 	#header {
-		color: #fffafa;
+		color: hsl(0, 100%, 99%);
 		-moz-align-items: center;
 		-webkit-align-items: center;
 		-ms-align-items: center;
@@ -3529,7 +3532,7 @@ input, select, textarea {
 
 		#header a {
 			color: #ffffff;
-			border-bottom-color: rgba(255, 255, 255, 0.5);
+			border-bottom-color: #ffffff;
 		}
 
 			#header a:hover {
@@ -3654,8 +3657,7 @@ input, select, textarea {
 		}
 
 			#nav a:hover {
-				border-bottom-color: transparent;
-				color: #18bfef !important;
+				border-bottom-color: #6b97e9;
 			}
 
 		#nav strong, #nav b {
@@ -3780,20 +3782,10 @@ input, select, textarea {
 			padding: 4rem 4rem 2rem 4rem ;
 			border-left: solid 2px #6b97e9;
 			margin: 0;
-		}
-
-		#main > * {
-			padding: 4rem 4rem 2rem 4rem ;
-			border-top: solid 2px #6b97e9;
-			margin: 0;
-		}		
-		#main > * {
-			padding: 4rem 4rem 2rem 4rem ;
-			border: solid 2px #6b97e9;
-			margin: 0;
-		}		
-			#main > *:first-child {
+		}	
+		#main > *:first-child {
 				border-top: 0;
+
 			}
 
 		#main > footer {
@@ -3970,7 +3962,7 @@ input, select, textarea {
 /* Footer */
 
 	#footer {
-		color: #d6f1f1;
+		color: #45cccc;
 		display: -moz-flex;
 		display: -webkit-flex;
 		display: -ms-flex;
@@ -3995,7 +3987,7 @@ input, select, textarea {
 		}
 
 			#footer a:hover {
-				border-bottom-color: transparent;
+				border-bottom-color: solid;
 				color: #6b97e9 !important;
 			}
 
@@ -4021,7 +4013,7 @@ input, select, textarea {
 		}
 
 		#footer .box {
-			border-color: #e2e2e2;
+			border-color: #6b97e9;
 		}
 
 		#footer input[type="submit"],
@@ -4325,7 +4317,10 @@ input, select, textarea {
 			}
 
 				#footer > section {
-					border-top: solid 2px #6b97e9;
+					border-bottom: solid 2px #6b97e9
+				}
+				#footer > section {
+					border-right: solid 2px #6b97e9
 				}
 
 					#footer > section:first-child {
@@ -4432,8 +4427,7 @@ input, select, textarea {
 		}
 
 			#copyright a:hover {
-				border-bottom-color: transparent;
-				color: #18bfef !important;
+				border-bottom-color: #6b97e9;
 			}
 
 		#copyright strong, #copyright b {
