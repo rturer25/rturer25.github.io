@@ -3079,7 +3079,7 @@ input, select, textarea {
 			}
 
 	table tbody tr {
-		border-color: #ffffff;
+		border-color: #6b97e9;
 	}
 
 		table tbody tr:nth-child(2n + 1) {
@@ -3099,7 +3099,7 @@ input, select, textarea {
 	}
 
 	table.alt tbody tr td {
-		border-color: #ece7e7;
+		border-color: #6b97e9;
 	}
 
 /* Pagination */
@@ -3771,21 +3771,12 @@ input, select, textarea {
 			padding: 4rem 4rem 2rem 4rem ;
 			border-top: solid 2px #6b97e9;
 			margin: 0;
-		}
-		#main > * {
 			padding: 4rem 4rem 2rem 4rem ;
 			border-right: solid 2px #6b97e9;
 			margin: 0;
-		}
-
-		#main > * {
 			padding: 4rem 4rem 2rem 4rem ;
 			border-left: solid 2px #6b97e9;
 			margin: 0;
-		}	
-		#main > *:first-child {
-				border-top: 0;
-
 			}
 
 		#main > footer {
@@ -3983,7 +3974,8 @@ input, select, textarea {
 
 		#footer a {
 			color: #717981;
-			border-bottom-color: rgba(113, 121, 129, 0.5);
+			border-bottom-color: #6b97e9;
+
 		}
 
 			#footer a:hover {
@@ -4013,7 +4005,7 @@ input, select, textarea {
 		}
 
 		#footer .box {
-			border-color: #6b97e9;
+			border-color: #ffffff;
 		}
 
 		#footer input[type="submit"],
@@ -4423,7 +4415,7 @@ input, select, textarea {
 
 		#copyright a {
 			color: #ffffff;
-			border-bottom-color: rgba(255, 255, 255, 0.5);
+			border-top-color: #6b97e9;
 		}
 
 			#copyright a:hover {
@@ -4541,7 +4533,7 @@ input, select, textarea {
 		}
 
 		#navPanelToggle.alt {
-			background-color: rgba(255, 255, 255, 0.875);
+			background-color: #d6f1f1;
 			box-shadow: 0 0.125rem 0.75rem 0 rgba(30, 37, 45, 0.25);
 			color: #212931;
 		}
@@ -4578,7 +4570,7 @@ input, select, textarea {
 		transition: transform 0.5s ease, box-shadow 0.5s ease, visibility 0.5s;
 		display: none;
 		-webkit-overflow-scrolling: touch;
-		background: #ffffff;
+		background: #d6f1f1;
 		box-shadow: none;
 		color: #212931;
 		height: 100%;
@@ -4594,12 +4586,12 @@ input, select, textarea {
 	}
 
 		#navPanel .links {
-			list-style: none;
+			list-style: 1;
 			padding-left: 0;
 		}
 
 			#navPanel .links li {
-				border-top: solid 2px #eeeeee;
+				border-top: solid 2px #6b97e9;
 			}
 
 				#navPanel .links li a {
@@ -4659,7 +4651,7 @@ input, select, textarea {
 			}
 
 			#navPanel .close:hover {
-				color: #212931;
+				color: #ffffff;
 			}
 
 			@media screen and (max-width: 736px) {
