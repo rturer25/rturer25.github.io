@@ -3032,7 +3032,7 @@ input, select, textarea {
 			letter-spacing: 0.075em;
 			line-height: 1.5;
 			padding: 0 0.75rem 0.75rem 0.75rem;
-			text-align: left;
+			text-align: center;
 			text-transform: uppercase;
 		}
 
@@ -3867,7 +3867,7 @@ input, select, textarea {
 			}
 
 			#main > .posts > article {
-				border-color: #6b97e9;
+				border-color: #d6f1f1;
 				border-left-width: 2px;
 				border-style: solid;
 				border-top-width: 2px;
